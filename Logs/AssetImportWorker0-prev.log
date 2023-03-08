@@ -1,0 +1,373 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.5f1 (551d45108343) revision 5578053'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32620 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Software\Unity Engine\2022.2.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projects/UnityProject/Shader-Nature-Surface
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57993
+Successfully changed project path to: D:/Projects/UnityProject/Shader-Nature-Surface
+D:/Projects/UnityProject/Shader-Nature-Surface
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26028] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 911946431 [EditorId] 911946431 [Version] 1048832 [Id] WindowsEditor(7,NAHHHHHHHHHHH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26028] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 911946431 [EditorId] 911946431 [Version] 1048832 [Id] WindowsEditor(7,NAHHHHHHHHHHH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.5f1 (551d45108343)
+[Subsystems] Discovering subsystems at path D:/Software/Unity Engine/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/UnityProject/Shader-Nature-Surface/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16338 MB
+    Driver:   31.0.12029.10015
+Initialize mono
+Mono path[0] = 'D:/Software/Unity Engine/2022.2.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Software/Unity Engine/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Software/Unity Engine/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Software/Unity Engine/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002160 seconds.
+- Loaded All Assemblies, in  0.261 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (142ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+				TypeCache.Initialize (115ms)
+					TypeCache.ScanAssembly (114ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (175ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\UnityProject\Shader-Nature-Surface\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\UnityProject\Shader-Nature-Surface\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.795 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.607 seconds
+Domain Reload Profiling:
+	ReloadAssembly (179ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		LoadAllAssembliesAndSetupDomain (616ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (445ms)
+				TypeCache.Initialize (308ms)
+					TypeCache.ScanAssembly (303ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (371ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4861 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.8 MB). Loaded Objects now: 5310.
+Memory consumption went from 0.75 GB to 0.75 GB.
+Total: 4.072500 ms (FindLiveObjects: 0.445600 ms CreateObjectMapping: 0.617100 ms MarkObjects: 2.714600 ms  DeleteObjects: 0.293800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39167.120778 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b11e6936975384c89f4f7e6268c69a') in 0.039028 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 242.123604 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fad8187a9660f5dc61c251b99f2f4e') in 0.000446 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.170539 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0826c28cb0ac08c7995a8211ea1eb1f9') in 0.001295 seconds 
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 881.520777 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000533 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.492082 seconds.
+  path: Assets/Rocks
+  artifactKey: Guid(cc579b420f1cc1e4185cf8ce39dad696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks using Guid(cc579b420f1cc1e4185cf8ce39dad696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d99a1eee6cb3d437cb19ef8112819f9') in 0.000376 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 61.099183 seconds.
+  path: Assets/Rocks/rock 20
+  artifactKey: Guid(3980672d1458feb408ae983d9486788a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/rock 20 using Guid(3980672d1458feb408ae983d9486788a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60522599b3c5c8d662a0de725e39fae5') in 0.000379 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071097 seconds.
+  path: Assets/Rocks/rock 20/mid poly.obj
+  artifactKey: Guid(c9d77552fafbc9b43b29e1b132c38f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/rock 20/mid poly.obj using Guid(c9d77552fafbc9b43b29e1b132c38f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896744ba226bdb5294295050154c1e10') in 1.326242 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 34.822835 seconds.
+  path: Assets/Rocks/rock 20/defaultMat.mat
+  artifactKey: Guid(fae321c188f966c4392c668f06c18c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/rock 20/defaultMat.mat using Guid(fae321c188f966c4392c668f06c18c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88557f101b53152a4f9cff0e59744a95') in 0.011742 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.384548 seconds.
+  path: Assets/Rocks/rock 20/rock_20_normal (4096).png
+  artifactKey: Guid(47d7a233fb1ca9940bb86aa5a0fd0268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/rock 20/rock_20_normal (4096).png using Guid(47d7a233fb1ca9940bb86aa5a0fd0268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba47fe09d74d1e59c021b80e3f37519c') in 0.031482 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 226.970179 seconds.
+  path: Assets/AdvancedTriplaner.unity
+  artifactKey: Guid(768ff12d99a4e654ea69c2fd64133af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AdvancedTriplaner.unity using Guid(768ff12d99a4e654ea69c2fd64133af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d0c73d01f344840679c68c4592cdff') in 0.000637 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.016450 seconds.
+  path: Assets/SimpleTriplaner.shadergraph
+  artifactKey: Guid(2ed0839f258bf8046995141e8dd3be42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleTriplaner.shadergraph using Guid(2ed0839f258bf8046995141e8dd3be42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5754c469585ad5afce916949b154ec02') in 0.947554 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 22.435371 seconds.
+  path: Assets/Shader Graphs_SimpleTriplaner.mat
+  artifactKey: Guid(55a292a42095fc34391ab533c5687d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader Graphs_SimpleTriplaner.mat using Guid(55a292a42095fc34391ab533c5687d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e13ffd5f51f83c07c9286910393e01') in 0.010448 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 362.768999 seconds.
+  path: Assets/Rocks/ValleyGrayCliff
+  artifactKey: Guid(974ea48ed6f555546988de7f95cbc26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/ValleyGrayCliff using Guid(974ea48ed6f555546988de7f95cbc26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda7e3d52b2987bd7b3cafafe4e9fb62') in 0.000567 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050456 seconds.
+  path: Assets/Rocks/ValleyGrayCliff/TexturesCom_Ground_SandDesert1_3x3_512_albedo.tif
+  artifactKey: Guid(0a57702b15d54d04c900752a337c34d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/ValleyGrayCliff/TexturesCom_Ground_SandDesert1_3x3_512_albedo.tif using Guid(0a57702b15d54d04c900752a337c34d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8363cfe989d1d0413354d1853591a41a') in 0.015857 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Rocks/ValleyGrayCliff/ValleyGrayCliff.prefab
+  artifactKey: Guid(0ce70a164a57a564ea7f0cb7e1ebc971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/ValleyGrayCliff/ValleyGrayCliff.prefab using Guid(0ce70a164a57a564ea7f0cb7e1ebc971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314e5de0018a20f095270fc3c44e373a') in 1.054649 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Rocks/ValleyGrayCliff/TexturesCom_Snow_Fresh_2.5x2.5_512_albedo.tif
+  artifactKey: Guid(d4b2bff3c28235d4b9d110f261a78d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/ValleyGrayCliff/TexturesCom_Snow_Fresh_2.5x2.5_512_albedo.tif using Guid(d4b2bff3c28235d4b9d110f261a78d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07cbc37918d66f5ba9ba9fad89bcde9') in 0.009946 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.360677 seconds.
+  path: Assets/Rocks/ValleyGrayCliff/TriplanarShader.shadergraph
+  artifactKey: Guid(de90eb67966951b4f8f2b0e14f556e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/ValleyGrayCliff/TriplanarShader.shadergraph using Guid(de90eb67966951b4f8f2b0e14f556e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7492e9266791a3ff01e87699d7642060') in 1.131785 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 17.227445 seconds.
+  path: Assets/Rocks/ValleyGrayCliff/TexturesMat/T_ValleyGrayCliff_NOpenGL.tga
+  artifactKey: Guid(f77de69d18f2caf49b5536bebbdddfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/ValleyGrayCliff/TexturesMat/T_ValleyGrayCliff_NOpenGL.tga using Guid(f77de69d18f2caf49b5536bebbdddfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04d866f026cc4c674de35486f94bf91') in 0.012451 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 179.123639 seconds.
+  path: Assets/Rocks/rock 20/mid poly.obj
+  artifactKey: Guid(c9d77552fafbc9b43b29e1b132c38f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/rock 20/mid poly.obj using Guid(c9d77552fafbc9b43b29e1b132c38f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6555779125fbb3e6db6b2f742629b616') in 0.658462 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 62.463463 seconds.
+  path: Assets/Rocks/ValleyGrayCliff/TexturesMat/T_ValleyGrayCliff_AO.tga
+  artifactKey: Guid(3b6475e6311ca694387c3914835aecb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/ValleyGrayCliff/TexturesMat/T_ValleyGrayCliff_AO.tga using Guid(3b6475e6311ca694387c3914835aecb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef7fb76ba4a7d24b050a7de928e4452') in 0.013992 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Rocks/ValleyGrayCliff/TexturesMat/T_ValleyGrayCliff_MS.tga
+  artifactKey: Guid(22a65e7f49f1fd34380356560c4b9790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/ValleyGrayCliff/TexturesMat/T_ValleyGrayCliff_MS.tga using Guid(22a65e7f49f1fd34380356560c4b9790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849e2666cb19763395c83d8d87c50115') in 0.010805 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3086.274533 seconds.
+  path: Assets/Shader Graphs_Triplanar-Shader 1.mat
+  artifactKey: Guid(8234cb73ed4b66e4a9bc21d507050c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader Graphs_Triplanar-Shader 1.mat using Guid(8234cb73ed4b66e4a9bc21d507050c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4964ba265a2cfb5955a2bfd3803618e1') in 0.994701 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 22.948786 seconds.
+  path: Assets/Rocks/Rock B/textures/Rock_AO.png
+  artifactKey: Guid(9b689fe29d77d1b41a379b35d46bf4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/Rock B/textures/Rock_AO.png using Guid(9b689fe29d77d1b41a379b35d46bf4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317c82a9cd4a4ff617a6bdd99cee8e5a') in 0.012294 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Rocks/Rock B/textures/Rock_BaseColour.png
+  artifactKey: Guid(57d1da1c5e6e93d47b149eadc874169a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/Rock B/textures/Rock_BaseColour.png using Guid(57d1da1c5e6e93d47b149eadc874169a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ba5512a0ce7d1237abe5606477e6bf') in 0.012879 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Rocks/Rock B/textures/Rock_Normal.png
+  artifactKey: Guid(7c5914131a478e043a2a6f982769ec78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks/Rock B/textures/Rock_Normal.png using Guid(7c5914131a478e043a2a6f982769ec78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d180663f9e9ba472b4827df2b7a8fc') in 0.020401 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
