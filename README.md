@@ -17,4 +17,4 @@ I do Unity Tutorials on just about every topic, Unity Tutorials for Beginners an
 
 --------------------------------------------------------------------
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/gkprZtZUj6E/0.jpg)](http://www.youtube.com/watch?v=gkprZtZUj6E)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/mzZMlq3UAMQ/0.jpg)](https://www.youtube.com/watch?v=mzZMlq3UAMQ)
